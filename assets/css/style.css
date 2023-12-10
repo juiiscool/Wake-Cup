@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital@1&family=Borel&family=Zen+Maru+Gothic:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    font-family: 'Zen Maru Gothic', serif;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),
+     url('../pictures/318135841_134150082809022_3490781867127804312_n.jpg')rgba(0,0,0,0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    line-height: 2;
+    font-family: 'Zen Maru Gothic', serif;
+}
+
+/* navbar */
+
+.navbar{
+    overflow: hidden;
+    background-color: transparent !important;
+}
+
+.navbar-toggler{
+    color: #ffffff !important;
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+}
+
+#ig:hover, #location:hover{
+    text-decoration: line-through !important;
+}
+
+#location{
+    width: 10rem;
+}
+
+#youtube{
+    color: #e80a0a !important;
+}
+
+#youtube:hover{
+    rotate: 25deg;
+}
+
+/* aesthetic */
+
+#aestheticImg{
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+/* video */
+
+#video{
+    position: absolute;
+    top: 29%;
+    left: 24%;
+    max-width: 800px;
+    border-radius: 5%;
+}
+
+@media (max-width:1080px){
+    #video{
+        height: 500px;
+        width: 600px;
+        left: 18%;
+        top: 18%;
+    }
+}
+
+@media (max-width:840px){
+    #video{
+        height: 400px;
+        width: 300px;
+        left: 22%;
+        top: 18%;
+    }
+}
+
+@media (max-width:360px){
+    #video{
+        height: 200px;
+        width: 200px;
+        left: 15%;
+        top: 35%;
+    }
+}
